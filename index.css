@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    /* border: 2px solid green; */
+    background-color: rgb(1, 1, 43);
+    display: flex;
+    /* flex: 1fr 3fr; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.profile {
+    /* border: 2px solid yellow; */
+    margin: 80px;
+    left: 150px;
+    width: 600px;
+    height: 400px;
+}
+
+.selection {
+    /* border: 2px solid red; */
+    background-color: royalblue;
+    color: white;
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+    display: grid;
+}
+
+.jeremy {
+    /* border: 2px solid pink; */
+    width: 250px;
+    height: 250px;
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.jeremy img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.jeremy p {
+    font-size: 18px;
+    color: rgb(230, 222, 222);
+    padding: 10px;
+}
+
+.jeremy h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* padding: 10px; */
+}
+
+.selection a {
+    text-align: center;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.selection a:hover {
+    color: white;
+    font-size: 18px;
+}
+
+.activity {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 2500px;
+}
+
+.workBody {
+    /* border: 2px solid yellow; */
+    background-color: rgb(78, 73, 10);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.work {
+    background-color: royalblue;
+    color: white;
+    width: 250px;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.work p {
+    font-size: 18px;
+    color: rgb(230, 222, 222);
+    padding: 20px;
+}
+
+.work h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.playBody {
+     /* border: 2px solid yellow; */
+     background-color: rgb(78, 73, 10);
+     width: 250px;
+     height: 250px;
+     border-radius: 10px;
+     margin: 20px;
+}
+
+.play {
+    background-color: royalblue;
+    color: white;
+    width: 250px;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.play p {
+    font-size: 18px;
+    color: rgb(230, 222, 222);
+    padding: 20px;
+}
+
+.play h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.studyBody {
+    /* border: 2px solid yellow; */
+    background-color: rgb(78, 73, 10);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.study {
+   background-color: royalblue;
+   color: white;
+   width: 250px;
+   height: 200px;
+   margin-top: 50px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.study p {
+   font-size: 18px;
+   color: rgb(230, 222, 222);
+   padding: 20px;
+}
+
+.study h3 {
+   font-size: 30px;
+   font-family: sans-serif;
+   font-weight: bold;
+   padding: 20px;
+}
+
+.exerciseBody {
+    /* border: 2px solid yellow; */
+    background-color: rgb(78, 73, 10);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.exercise {
+   background-color: royalblue;
+   color: white;
+   width: 250px;
+   height: 200px;
+   margin-top: 50px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.exercise p {
+   font-size: 18px;
+   color: rgb(230, 222, 222);
+   padding: 20px;
+}
+
+.exercise h3 {
+   font-size: 30px;
+   font-family: sans-serif;
+   font-weight: bold;
+   padding: 20px;
+}
+
+.socialBody {
+    /* border: 2px solid yellow; */
+    background-color: rgb(78, 73, 10);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.social {
+   background-color: royalblue;
+   color: white;
+   width: 250px;
+   height: 200px;
+   margin-top: 50px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.social p {
+   font-size: 18px;
+   color: rgb(230, 222, 222);
+   padding: 20px;
+}
+
+.social h3 {
+   font-size: 30px;
+   font-family: sans-serif;
+   font-weight: bold;
+   padding: 20px;
+}
+
+.selfBody {
+    /* border: 2px solid yellow; */
+    background-color: rgb(78, 73, 10);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.self {
+   background-color: royalblue;
+   color: white;
+   width: 250px;
+   height: 200px;
+   margin-top: 50px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.self p {
+   font-size: 18px;
+   color: rgb(230, 222, 222);
+   padding: 20px;
+}
+
+.self h3 {
+   font-size: 30px;
+   font-family: sans-serif;
+   font-weight: bold;
+    padding: 20px;
+}
+
+.down {
+    padding: 100px;
+}
+
+.fa-solid {
+    padding-left: 85px;
+    cursor: pointer;
+}
+
+.fa-solid:hover {
+    font-size: 20px;
+}
+
+.BB {
+    text-align: left;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
